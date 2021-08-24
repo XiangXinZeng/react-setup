@@ -1,3 +1,11 @@
-import greeting from './greet'
+import getGreeting from './greet'
 
-console.log(greeting)
+const p1={
+  first:"Gray",
+  last:"Zeng"
+}
+
+const p2 = {...p1, age:43}
+
+console.log(getGreeting('Gray'))
+console.log(p2)
